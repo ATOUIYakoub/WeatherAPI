@@ -91,7 +91,7 @@ Quit the server with CTRL-BREAK.
 ```
 
 
-## Usage
+## Application
 
 > Open the browser and go to the endpoint and enter the  requested city and country.
 ex:
