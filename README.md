@@ -48,11 +48,11 @@ pip install -r requirements.txt
 ```
 ```python
 #Create a .env file**:
-Create a file named `.env` in the root directory of your project. Add the following line to it:
+#Create a file named `.env` in the root directory of your project. Add the following line to it:
 WEATHER_SECRET_APIKEY=your_secret_api_key_here
 
 #Load environment variables**:
-In the requestapi.py file, before accessing the environment variables, load them from the `.env` file:
+#In the requestapi.py file, before accessing the environment variables, load them from the `.env` file:
 
 import os
 from dotenv import load_dotenv
