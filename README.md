@@ -3,7 +3,7 @@ This repository contains a simple weather API built using Django Rest Framework.
 
 The API support GET requests in the following endpoint: <strong>/weather?city=$City&country=$Country&</strong>.
 
-where the variable "City" is a string. Example: Valledupar, and the variable "Country" is a country code of two characters in lowercase. Example: co
+where the variable "City" is a string. Example: Bougaa, and the variable "Country" is a country code of two characters in lowercase. Example: dz
 
 
 
@@ -91,14 +91,14 @@ Quit the server with CTRL-BREAK.
 ```
 
 
-## Usage
+## Application
 
 > Open the browser and go to the endpoint and enter the  requested city and country.
 ex:
   > Go to  http://127.0.0.1:8000/weather?city=Bougaa&country=dz
 
 
-<img src="https://github.com/ATOUIYakoub/WeatherAPI.git/weatherAPI/images/weatherapi.png" width="700">
+<img src="https://github.com/ATOUIYakoub/WeatherAPI/blob/main/weatherAPI/images/weatherapi.png" width="700">
 
 
 
