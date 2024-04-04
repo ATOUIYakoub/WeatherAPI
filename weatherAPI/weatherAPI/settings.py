@@ -71,7 +71,20 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'weatherAPI.wsgi.application'
 
+# Database caching Confifuration
+"""
+Cache Configuration
+* Creating the cache table¶
+* Before using the database cache, you must create the cache table with this command:
+* $python manage.py createcachetable
 
+"""
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.db.DatabaseCache',
+        'LOCATION': 'my_cache_table',                              # Cache table name in the database
+    }
+}
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
