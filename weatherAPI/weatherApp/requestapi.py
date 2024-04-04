@@ -1,11 +1,13 @@
 """ Request handler module."""
 
+from dotenv import load_dotenv
 import os
 import requests
 import xmltodict
 import json
 
 
+load_dotenv()
 
 def get_weather(city, country):
     """ Function to handle the requests to
