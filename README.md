@@ -29,7 +29,7 @@ This project uses the following Python dependencies:
 * xmltodict==0.13.0
 
 
-## Setup
+## Quick Start
 To run locally
 
 ```python
