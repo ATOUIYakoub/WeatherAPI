@@ -3,7 +3,7 @@ This repository contains a simple weather API built using Django Rest Framework.
 
 The API support GET requests in the following endpoint: <strong>/weather?city=$City&country=$Country&</strong>.
 
-where the variable "City" is a string. Example: Valledupar, and the variable "Country" is a country code of two characters in lowercase. Example: co
+where the variable "City" is a string. Example: Bougaa, and the variable "Country" is a country code of two characters in lowercase. Example: dz
 
 
 
