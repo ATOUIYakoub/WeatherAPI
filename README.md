@@ -98,7 +98,7 @@ ex:
   > Go to  http://127.0.0.1:8000/weather?city=Bougaa&country=dz
 
 
-<img src="https://github.com/ATOUIYakoub/WeatherAPI.git/weatherAPI/images/weatherapi.png" width="700">
+<img src="https://github.com/ATOUIYakoub/WeatherAPI/blob/main/weatherAPI/images/weatherapi.png" width="700">
 
 
 
