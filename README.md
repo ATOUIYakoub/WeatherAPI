@@ -81,8 +81,8 @@ The data stored will be available for 2 minutes.
 
 ```python
 # Run the local server
-$python manage.py runserver
-
+python manage.py runserver
+'''
 Watching for file changes with StatReloader
 Performing system checks...
 
@@ -91,6 +91,7 @@ April 04, 2024 - 07:55:11
 Django version 5.0.4, using settings 'weatherAPI.settings'
 Starting development server at http://127.0.0.1:8000/
 Quit the server with CTRL-BREAK.
+'''
 
 ```
 
